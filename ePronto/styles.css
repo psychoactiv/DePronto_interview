@@ -1,0 +1,57 @@
+.resize-container-height {
+  height: 400px;
+}
+
+.nav-bar {
+  height: 50px;
+  background-color: rgb(183, 126, 183);
+}
+
+.nav-color {
+  color: white;
+  font-size: 2rem;
+}
+
+.no-pad {
+  padding: 0px;
+}
+
+.projects-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-button-container {
+  margin-top: 10px;
+}
+
+.project-section {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.hidden-pop-up {
+  display: none;
+  top: 40%;
+  right: 40%;
+}
+
+.show-pop-up {
+  display: block;
+  position: fixed;
+  width: 800px;
+  left: calc(50% - 400px);
+  top: 3vh;
+  z-index: 2;
+}
